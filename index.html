@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NumVerse — Matemáticas en Realidad Virtual</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ======= NAVBAR ======= -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-icon">🔢</span>
+        <span class="logo-text">NumVerse</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#features">Funciones</a></li>
+        <li><a href="#how">¿Cómo funciona?</a></li>
+        <li><a href="#team">Equipo</a></li>
+        <li><a href="#download" class="nav-cta">Descargar</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ======= HERO ======= -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Proyecto de Tesis · Realidad Virtual + IA
+      </div>
+
+      <h1 class="hero-title">
+        Aprende<br />
+        <span class="gradient-text">Matemáticas</span><br />
+        en otro mundo
+      </h1>
+
+      <p class="hero-subtitle">
+        NumVerse es una aplicación de Realidad Virtual con Inteligencia Artificial
+        diseñada para que niños de 7 a 10 años descubran el fascinante mundo
+        de las matemáticas de forma inmersiva, divertida y efectiva.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#download" class="btn btn-primary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Descargar App
+        </a>
+        <a href="#how" class="btn btn-ghost">
+          Ver cómo funciona
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">7–10</span>
+          <span class="stat-label">Años</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">VR</span>
+          <span class="stat-label">Meta Quest 3</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">IA</span>
+          <span class="stat-label">Gemini AI</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="vr-mockup">
+        <div class="vr-screen">
+          <div class="vr-scene">
+            <div class="floating-num num-1">3²</div>
+            <div class="floating-num num-2">∑</div>
+            <div class="floating-num num-3">+</div>
+            <div class="floating-num num-4">π</div>
+            <div class="floating-num num-5">÷</div>
+            <div class="floating-num num-6">√</div>
+            <div class="vr-center">
+              <div class="vr-ring ring-outer"></div>
+              <div class="vr-ring ring-middle"></div>
+              <div class="vr-inner">
+                <span>NumVerse</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="vr-glow"></div>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ======= FEATURES ======= -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Funcionalidades</span>
+        <h2 class="section-title">Todo lo que NumVerse ofrece</h2>
+        <p class="section-subtitle">
+          Una experiencia completa diseñada para que el aprendizaje sea mágico y sin límites.
+        </p>
+      </div>
+
+      <div class="features-grid">
+
+        <div class="feature-card card-highlight">
+          <div class="feature-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="20" fill="url(#g1)" opacity=".15"/>
+              <path d="M16 32l4-8 4 4 4-10 4 14" stroke="url(#g1)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="34" cy="14" r="4" fill="url(#g1)"/>
+              <defs>
+                <linearGradient id="g1" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#7C3AED"/>
+                  <stop offset="1" stop-color="#06B6D4"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3>Captura Inteligente</h3>
+          <p>Fotografía cualquier ejercicio del cuaderno con la cámara Passthrough del Meta Quest 3 y la IA lo analiza al instante.</p>
+          <span class="feature-tag">RF1 · RF2</span>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon icon-blue">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="20" fill="url(#g2)" opacity=".12"/>
+              <path d="M24 16v16M16 24h16" stroke="url(#g2)" stroke-width="2.5" stroke-linecap="round"/>
+              <rect x="10" y="10" width="28" height="28" rx="8" stroke="url(#g2)" stroke-width="2"/>
+              <defs>
+                <linearGradient id="g2" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#2563EB"/>
+                  <stop offset="1" stop-color="#7C3AED"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3>Acceso Seguro</h3>
+          <p>Sistema de autenticación que protege la sesión de cada estudiante, garantizando privacidad y control parental.</p>
+          <span class="feature-tag">RF3</span>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon icon-cyan">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="20" fill="url(#g3)" opacity=".12"/>
+              <path d="M14 24c0-5.5 4.5-10 10-10s10 4.5 10 10" stroke="url(#g3)" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="24" cy="28" r="4" fill="url(#g3)"/>
+              <path d="M20 36h8" stroke="url(#g3)" stroke-width="2.5" stroke-linecap="round"/>
+              <defs>
+                <linearGradient id="g3" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#06B6D4"/>
+                  <stop offset="1" stop-color="#10B981"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3>IA con Gemini</h3>
+          <p>Gemini AI interpreta el ejercicio y genera pasos explicativos claros, adaptados al nivel del niño.</p>
+          <span class="feature-tag">RF4</span>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon icon-green">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="20" fill="url(#g4)" opacity=".12"/>
+              <rect x="12" y="18" width="24" height="16" rx="3" stroke="url(#g4)" stroke-width="2"/>
+              <path d="M17 22h14M17 27h8" stroke="url(#g4)" stroke-width="2.5" stroke-linecap="round"/>
+              <defs>
+                <linearGradient id="g4" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#10B981"/>
+                  <stop offset="1" stop-color="#06B6D4"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3>Pasos Visuales 3D</h3>
+          <p>Los pasos de la solución aparecen en el espacio tridimensional de forma ordenada, clara y comprensible.</p>
+          <span class="feature-tag">RF5</span>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon icon-orange">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="20" fill="url(#g5)" opacity=".12"/>
+              <path d="M32 24a8 8 0 11-16 0 8 8 0 0116 0z" stroke="url(#g5)" stroke-width="2"/>
+              <path d="M24 20v4l3 3" stroke="url(#g5)" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M38 12l-2 2M10 36l-2 2M38 36l-2-2M10 12l-2-2" stroke="url(#g5)" stroke-width="2" stroke-linecap="round"/>
+              <defs>
+                <linearGradient id="g5" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#F59E0B"/>
+                  <stop offset="1" stop-color="#EF4444"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3>Modo Sin Internet</h3>
+          <p>Accede a ejercicios predefinidos aunque no haya conexión. El aprendizaje no se detiene.</p>
+          <span class="feature-tag">RF7</span>
+        </div>
+
+        <div class="feature-card card-highlight-alt">
+          <div class="feature-icon icon-purple">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="20" fill="url(#g6)" opacity=".12"/>
+              <path d="M16 32V20l8-6 8 6v12" stroke="url(#g6)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <rect x="20" y="26" width="8" height="6" rx="1" stroke="url(#g6)" stroke-width="2"/>
+              <defs>
+                <linearGradient id="g6" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#7C3AED"/>
+                  <stop offset="1" stop-color="#EC4899"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3>Interacción Total</h3>
+          <p>Manipula objetos 3D, navega entre paneles educativos y explora el entorno con los controladores del visor.</p>
+          <span class="feature-tag">RF8</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= HOW IT WORKS ======= -->
+  <section class="how" id="how">
+    <div class="how-bg">
+      <div class="orb orb-how-1"></div>
+      <div class="orb orb-how-2"></div>
+    </div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Proceso</span>
+        <h2 class="section-title">¿Cómo funciona NumVerse?</h2>
+        <p class="section-subtitle">Solo cuatro pasos para que tu hijo aprenda matemáticas de una forma que nunca olvidará.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step" data-step="1">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <div class="step-icon">📸</div>
+            <h3>Fotografía el ejercicio</h3>
+            <p>El niño apunta la cámara del visor Meta Quest 3 hacia su cuaderno y captura el ejercicio matemático.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+
+        <div class="step" data-step="2">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <div class="step-icon">🤖</div>
+            <h3>La IA lo analiza</h3>
+            <p>Gemini AI recibe la imagen, interpreta el ejercicio y genera una explicación paso a paso adaptada al nivel del estudiante.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+
+        <div class="step" data-step="3">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <div class="step-icon">✨</div>
+            <h3>Aparecen los pasos en 3D</h3>
+            <p>Los pasos de la solución se presentan en el espacio virtual de forma clara, ordenada y visualmente atractiva.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+
+        <div class="step" data-step="4">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <div class="step-icon">🎮</div>
+            <h3>¡El niño interactúa y aprende!</h3>
+            <p>Con los controladores, el estudiante navega, explora y resuelve ejercicios en un entorno inmersivo y motivador.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= TECH ======= -->
+  <section class="tech">
+    <div class="container">
+      <div class="tech-inner">
+        <p class="tech-label">Tecnologías utilizadas</p>
+        <div class="tech-logos">
+          <div class="tech-item">
+            <div class="tech-badge">Meta Quest 3/3S</div>
+          </div>
+          <div class="tech-item">
+            <div class="tech-badge">Gemini AI</div>
+          </div>
+          <div class="tech-item">
+            <div class="tech-badge">Unity XR</div>
+          </div>
+          <div class="tech-item">
+            <div class="tech-badge">Passthrough API</div>
+          </div>
+          <div class="tech-item">
+            <div class="tech-badge">REST API</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= TEAM ======= -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Equipo</span>
+        <h2 class="section-title">Creadores de NumVerse</h2>
+        <p class="section-subtitle">Estudiantes apasionados por la tecnología y la educación.</p>
+      </div>
+
+      <div class="team-grid">
+
+        <div class="team-card">
+          <div class="team-avatar">
+            <div class="avatar-placeholder">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40" cy="40" r="40" fill="url(#av1)"/>
+                <circle cx="40" cy="32" r="14" fill="white" opacity=".3"/>
+                <ellipse cx="40" cy="70" rx="22" ry="16" fill="white" opacity=".3"/>
+                <defs>
+                  <linearGradient id="av1" x1="0" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#7C3AED"/>
+                    <stop offset="1" stop-color="#06B6D4"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div class="avatar-ring"></div>
+          </div>
+          <div class="team-info">
+            <h3>Manuel Gutierrez Zumaeta</h3>
+            <span class="team-career">Ingeniería de Software</span>
+            <p class="team-role">Desarrollador VR & Backend</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar">
+            <div class="avatar-placeholder avatar-2">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40" cy="40" r="40" fill="url(#av2)"/>
+                <circle cx="40" cy="32" r="14" fill="white" opacity=".3"/>
+                <ellipse cx="40" cy="70" rx="22" ry="16" fill="white" opacity=".3"/>
+                <defs>
+                  <linearGradient id="av2" x1="0" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#2563EB"/>
+                    <stop offset="1" stop-color="#7C3AED"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div class="avatar-ring ring-blue"></div>
+          </div>
+          <div class="team-info">
+            <h3>Jose Ampudia Flores</h3>
+            <span class="team-career">Ingeniería de Software</span>
+            <p class="team-role">Desarrollador IA & Backend</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar">
+            <div class="avatar-placeholder">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40" cy="40" r="40" fill="url(#av1)"/>
+                <circle cx="40" cy="32" r="14" fill="white" opacity=".3"/>
+                <ellipse cx="40" cy="70" rx="22" ry="16" fill="white" opacity=".3"/>
+                <defs>
+                  <linearGradient id="av1" x1="0" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#7C3AED"/>
+                    <stop offset="1" stop-color="#06B6D4"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div class="avatar-ring"></div>
+          </div>
+          <div class="team-info">
+            <h3>Jose Cumpa Torres</h3>
+            <span class="team-career"></span>
+            <p class="team-role">Asesor especializado / Coautor</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="team-note">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+        Proyecto de Tesis · Universidad Peruana de Ciencias Aplicadas · 2026
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= DOWNLOAD ======= -->
+  <section class="download" id="download">
+    <div class="download-bg">
+      <div class="orb orb-dl-1"></div>
+      <div class="orb orb-dl-2"></div>
+    </div>
+    <div class="container">
+      <div class="download-inner">
+        <div class="download-text">
+          <span class="section-tag tag-white">¡Disponible ahora!</span>
+          <h2>Lleva las matemáticas<br />a otra dimensión</h2>
+          <p>
+            Descarga NumVerse en tu Meta Quest 3 y dale a tu hijo
+            una experiencia educativa que lo motivará a amar las matemáticas.
+          </p>
+          <ul class="download-list">
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Compatible con Meta Quest 3 y 3S
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Funciona sin conexión a internet
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Diseñado para niños de 7 a 10 años
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Guiado por Inteligencia Artificial
+            </li>
+          </ul>
+        </div>
+
+        <div class="download-buttons">
+          <a href="#" class="dl-btn dl-btn-primary" id="download-app" download>
+            <div class="dl-btn-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            </div>
+            <div class="dl-btn-text">
+              <span class="dl-sub">Descarga la aplicación</span>
+              <span class="dl-main">NumVerse APK</span>
+            </div>
+          </a>
+
+          <a href="#" class="dl-btn dl-btn-secondary" id="manual-link" target="_blank" rel="noopener noreferrer">
+            <div class="dl-btn-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            </div>
+            <div class="dl-btn-text">
+              <span class="dl-sub">Ver guía de instalación</span>
+              <span class="dl-main">Manual de Usuario</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <span class="logo-icon">🔢</span>
+          <span class="logo-text">NumVerse</span>
+        </div>
+        <p class="footer-copy">
+          © 2025 NumVerse · Proyecto de Tesis · Todos los derechos reservados.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
